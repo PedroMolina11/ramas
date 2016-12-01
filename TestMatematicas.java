@@ -11,11 +11,11 @@ public class TestMatematicas {
 		else
 			System.out.println("No es par");
 			
-		if(DivisiblePorTres.esDivisiblePorTres(numero))
+		if(Matematicas.esDivisiblePorTres(numero))
 			System.out.println("Es divisible por tres");
 		else
 			System.out.println("No es divisible por tres");
-		if(DivisiblePorCinco.esDivisiblePorCinco(numero))
+		if(Matematicas.esDivisiblePorCinco(numero))
 			System.out.println("Es divisible por cinco");
 		else
 			System.out.println("No es divisible por cinco");
